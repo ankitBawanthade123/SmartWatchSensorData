@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1E64952CFAB85E00CEF3F2 /* EatingSpeed Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BC1E64942CFAB85E00CEF3F2 /* EatingSpeed Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC1E649A2CFAB85E00CEF3F2 /* EatingSpeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E64992CFAB85E00CEF3F2 /* EatingSpeedApp.swift */; };
+		BC1E649C2CFAB85E00CEF3F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E649B2CFAB85E00CEF3F2 /* ContentView.swift */; };
+		BC1E649E2CFAB85F00CEF3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1E649D2CFAB85F00CEF3F2 /* Assets.xcassets */; };
+		BC1E64A12CFAB85F00CEF3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1E64A02CFAB85F00CEF3F2 /* Preview Assets.xcassets */; };
+		BC1E64AB2CFAB86000CEF3F2 /* EatingSpeed_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E64AA2CFAB86000CEF3F2 /* EatingSpeed_Watch_AppTests.swift */; };
+		BC1E64B52CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E64B42CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITests.swift */; };
+		BC1E64B72CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E64B62CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1E64962CFAB85E00CEF3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E64882CFAB85E00CEF3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E64932CFAB85E00CEF3F2;
+			remoteInfo = "EatingSpeed Watch App";
+		};
+		BC1E64A72CFAB86000CEF3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E64882CFAB85E00CEF3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E64932CFAB85E00CEF3F2;
+			remoteInfo = "EatingSpeed Watch App";
+		};
+		BC1E64B12CFAB86000CEF3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1E64882CFAB85E00CEF3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1E64932CFAB85E00CEF3F2;
+			remoteInfo = "EatingSpeed Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC1E64BD2CFAB86000CEF3F2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BC1E64952CFAB85E00CEF3F2 /* EatingSpeed Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC1E648E2CFAB85E00CEF3F2 /* EatingSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatingSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E64942CFAB85E00CEF3F2 /* EatingSpeed Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EatingSpeed Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E64992CFAB85E00CEF3F2 /* EatingSpeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatingSpeedApp.swift; sourceTree = "<group>"; };
+		BC1E649B2CFAB85E00CEF3F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC1E649D2CFAB85F00CEF3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC1E64A02CFAB85F00CEF3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC1E64A62CFAB86000CEF3F2 /* EatingSpeed Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EatingSpeed Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E64AA2CFAB86000CEF3F2 /* EatingSpeed_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatingSpeed_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BC1E64B02CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EatingSpeed Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1E64B42CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatingSpeed_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BC1E64B62CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatingSpeed_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1E64912CFAB85E00CEF3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64A32CFAB86000CEF3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64AD2CFAB86000CEF3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1E64872CFAB85E00CEF3F2 = {
+			isa = PBXGroup;
+			children = (
+				BC1E64982CFAB85E00CEF3F2 /* EatingSpeed Watch App */,
+				BC1E64A92CFAB86000CEF3F2 /* EatingSpeed Watch AppTests */,
+				BC1E64B32CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests */,
+				BC1E648F2CFAB85E00CEF3F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1E648F2CFAB85E00CEF3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E648E2CFAB85E00CEF3F2 /* EatingSpeed.app */,
+				BC1E64942CFAB85E00CEF3F2 /* EatingSpeed Watch App.app */,
+				BC1E64A62CFAB86000CEF3F2 /* EatingSpeed Watch AppTests.xctest */,
+				BC1E64B02CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1E64982CFAB85E00CEF3F2 /* EatingSpeed Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E64992CFAB85E00CEF3F2 /* EatingSpeedApp.swift */,
+				BC1E649B2CFAB85E00CEF3F2 /* ContentView.swift */,
+				BC1E649D2CFAB85F00CEF3F2 /* Assets.xcassets */,
+				BC1E649F2CFAB85F00CEF3F2 /* Preview Content */,
+			);
+			path = "EatingSpeed Watch App";
+			sourceTree = "<group>";
+		};
+		BC1E649F2CFAB85F00CEF3F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E64A02CFAB85F00CEF3F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC1E64A92CFAB86000CEF3F2 /* EatingSpeed Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E64AA2CFAB86000CEF3F2 /* EatingSpeed_Watch_AppTests.swift */,
+			);
+			path = "EatingSpeed Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BC1E64B32CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E64B42CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITests.swift */,
+				BC1E64B62CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "EatingSpeed Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1E648D2CFAB85E00CEF3F2 /* EatingSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E64BE2CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed" */;
+			buildPhases = (
+				BC1E648C2CFAB85E00CEF3F2 /* Resources */,
+				BC1E64BD2CFAB86000CEF3F2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1E64972CFAB85E00CEF3F2 /* PBXTargetDependency */,
+			);
+			name = EatingSpeed;
+			productName = EatingSpeed;
+			productReference = BC1E648E2CFAB85E00CEF3F2 /* EatingSpeed.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BC1E64932CFAB85E00CEF3F2 /* EatingSpeed Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E64BA2CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch App" */;
+			buildPhases = (
+				BC1E64902CFAB85E00CEF3F2 /* Sources */,
+				BC1E64912CFAB85E00CEF3F2 /* Frameworks */,
+				BC1E64922CFAB85E00CEF3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EatingSpeed Watch App";
+			productName = "EatingSpeed Watch App";
+			productReference = BC1E64942CFAB85E00CEF3F2 /* EatingSpeed Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1E64A52CFAB86000CEF3F2 /* EatingSpeed Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E64C12CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch AppTests" */;
+			buildPhases = (
+				BC1E64A22CFAB86000CEF3F2 /* Sources */,
+				BC1E64A32CFAB86000CEF3F2 /* Frameworks */,
+				BC1E64A42CFAB86000CEF3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1E64A82CFAB86000CEF3F2 /* PBXTargetDependency */,
+			);
+			name = "EatingSpeed Watch AppTests";
+			productName = "EatingSpeed Watch AppTests";
+			productReference = BC1E64A62CFAB86000CEF3F2 /* EatingSpeed Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC1E64AF2CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1E64C42CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch AppUITests" */;
+			buildPhases = (
+				BC1E64AC2CFAB86000CEF3F2 /* Sources */,
+				BC1E64AD2CFAB86000CEF3F2 /* Frameworks */,
+				BC1E64AE2CFAB86000CEF3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1E64B22CFAB86000CEF3F2 /* PBXTargetDependency */,
+			);
+			name = "EatingSpeed Watch AppUITests";
+			productName = "EatingSpeed Watch AppUITests";
+			productReference = BC1E64B02CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1E64882CFAB85E00CEF3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BC1E648D2CFAB85E00CEF3F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BC1E64932CFAB85E00CEF3F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BC1E64A52CFAB86000CEF3F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BC1E64932CFAB85E00CEF3F2;
+					};
+					BC1E64AF2CFAB86000CEF3F2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BC1E64932CFAB85E00CEF3F2;
+					};
+				};
+			};
+			buildConfigurationList = BC1E648B2CFAB85E00CEF3F2 /* Build configuration list for PBXProject "EatingSpeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1E64872CFAB85E00CEF3F2;
+			productRefGroup = BC1E648F2CFAB85E00CEF3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1E648D2CFAB85E00CEF3F2 /* EatingSpeed */,
+				BC1E64932CFAB85E00CEF3F2 /* EatingSpeed Watch App */,
+				BC1E64A52CFAB86000CEF3F2 /* EatingSpeed Watch AppTests */,
+				BC1E64AF2CFAB86000CEF3F2 /* EatingSpeed Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1E648C2CFAB85E00CEF3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64922CFAB85E00CEF3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1E64A12CFAB85F00CEF3F2 /* Preview Assets.xcassets in Resources */,
+				BC1E649E2CFAB85F00CEF3F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64A42CFAB86000CEF3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64AE2CFAB86000CEF3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1E64902CFAB85E00CEF3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1E649C2CFAB85E00CEF3F2 /* ContentView.swift in Sources */,
+				BC1E649A2CFAB85E00CEF3F2 /* EatingSpeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64A22CFAB86000CEF3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1E64AB2CFAB86000CEF3F2 /* EatingSpeed_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1E64AC2CFAB86000CEF3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1E64B72CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BC1E64B52CFAB86000CEF3F2 /* EatingSpeed_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1E64972CFAB85E00CEF3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E64932CFAB85E00CEF3F2 /* EatingSpeed Watch App */;
+			targetProxy = BC1E64962CFAB85E00CEF3F2 /* PBXContainerItemProxy */;
+		};
+		BC1E64A82CFAB86000CEF3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E64932CFAB85E00CEF3F2 /* EatingSpeed Watch App */;
+			targetProxy = BC1E64A72CFAB86000CEF3F2 /* PBXContainerItemProxy */;
+		};
+		BC1E64B22CFAB86000CEF3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1E64932CFAB85E00CEF3F2 /* EatingSpeed Watch App */;
+			targetProxy = BC1E64B12CFAB86000CEF3F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC1E64B82CFAB86000CEF3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1E64B92CFAB86000CEF3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC1E64BB2CFAB86000CEF3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EatingSpeed Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EatingSpeed;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trainingApps.EatingSpeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		BC1E64BC2CFAB86000CEF3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EatingSpeed Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EatingSpeed;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trainingApps.EatingSpeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		BC1E64BF2CFAB86000CEF3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
+				INFOPLIST_KEY_CFBundleDisplayName = EatingSpeed;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trainingApps.EatingSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC1E64C02CFAB86000CEF3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
+				INFOPLIST_KEY_CFBundleDisplayName = EatingSpeed;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trainingApps.EatingSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1E64C22CFAB86000CEF3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trainingApps.EatingSpeed-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatingSpeed Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EatingSpeed Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BC1E64C32CFAB86000CEF3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trainingApps.EatingSpeed-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatingSpeed Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EatingSpeed Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		BC1E64C52CFAB86000CEF3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trainingApps.EatingSpeed-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EatingSpeed Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BC1E64C62CFAB86000CEF3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trainingApps.EatingSpeed-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "EatingSpeed Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1E648B2CFAB85E00CEF3F2 /* Build configuration list for PBXProject "EatingSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E64B82CFAB86000CEF3F2 /* Debug */,
+				BC1E64B92CFAB86000CEF3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E64BA2CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E64BB2CFAB86000CEF3F2 /* Debug */,
+				BC1E64BC2CFAB86000CEF3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E64BE2CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E64BF2CFAB86000CEF3F2 /* Debug */,
+				BC1E64C02CFAB86000CEF3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E64C12CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E64C22CFAB86000CEF3F2 /* Debug */,
+				BC1E64C32CFAB86000CEF3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1E64C42CFAB86000CEF3F2 /* Build configuration list for PBXNativeTarget "EatingSpeed Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E64C52CFAB86000CEF3F2 /* Debug */,
+				BC1E64C62CFAB86000CEF3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1E64882CFAB85E00CEF3F2 /* Project object */;
+}
